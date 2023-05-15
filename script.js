@@ -159,7 +159,8 @@ btn.addEventListener('click', (e) => {
       enthusiast, Mapty is a great tool for staying motivated and
       achieving your fitness goals.
     </p>
-    <a href="#" class="visit-website">Visit Website &gt;</a>
+    <a href="https://endearing-hotteok-bcd193.netlify.app/"
+    target="_blank" class="visit-website">Visit Website &gt;</a>
   </figcaption>
 </div>
 </figure>
