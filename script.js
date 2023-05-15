@@ -11,7 +11,7 @@ const navhovereffect = function (e) {
     const links = nav.querySelectorAll('.main-nav-link');
     const logo = nav.querySelector('.navbar-logo-box');
 
-    links.forEach(link => {
+    links.forEach((link) => {
       if (link !== currlink) {
         link.style.opacity = this;
         logo.style.opacity = this;
@@ -43,8 +43,8 @@ const scroll = function (e) {
   });
 };
 
-document.querySelectorAll('.btn-scroll').forEach(btn =>
-  btn.addEventListener('click', e => {
+document.querySelectorAll('.btn-scroll').forEach((btn) =>
+  btn.addEventListener('click', (e) => {
     e.preventDefault();
     scroll(e);
   })
@@ -86,7 +86,7 @@ const activesection = function (event) {
 
   //   console.log(event[0].target, event[0].isIntersecting);
   if (event[0].isIntersecting) {
-    links.forEach(link => {
+    links.forEach((link) => {
       link.classList.remove('active-section');
     });
     const currsection = document.querySelector(
@@ -102,13 +102,13 @@ const sectionObserver = new IntersectionObserver(activesection, {
   threshold: 0,
   rootMargin: '-96px',
 });
-sections.forEach(section => sectionObserver.observe(section));
+sections.forEach((section) => sectionObserver.observe(section));
 
 // mobile nav menu
 document.querySelector('.menu-open-btn').addEventListener('click', () => {
   document.querySelector('.main-nav').classList.toggle('nav-menu-open');
 });
-document.querySelectorAll('.main-nav-link').forEach(link =>
+document.querySelectorAll('.main-nav-link').forEach((link) =>
   link.addEventListener('click', () => {
     document.querySelector('.main-nav').classList.remove('nav-menu-open');
     document.querySelector('.input-menu').checked = false;
@@ -119,7 +119,7 @@ document.querySelectorAll('.main-nav-link').forEach(link =>
 const allSections = document.querySelectorAll('section');
 
 const revealSection = function (entries, observer) {
-  entries.forEach(entry => {
+  entries.forEach((entry) => {
     if (entry.isIntersecting) {
       entry.target.classList.remove('section--hidden');
       observer.unobserve(entry.target);
@@ -132,14 +132,14 @@ const revealSectionObserver = new IntersectionObserver(revealSection, {
   threshold: 0,
 });
 
-allSections.forEach(section => {
+allSections.forEach((section) => {
   section.classList.add('section--hidden');
   revealSectionObserver.observe(section);
 });
 
 // load more btn
 const btn = document.querySelector('.load-more');
-btn.addEventListener('click', e => {
+btn.addEventListener('click', (e) => {
   e.preventDefault();
   const html = `
 <figure class="single-project">
@@ -186,12 +186,12 @@ function sendMail() {
 
   emailjs
     .send(serviceID, templateID, params)
-    .then(res => {
+    .then((res) => {
       (document.querySelector('.input-name').value = ''),
         (document.querySelector('.input-email').value = ''),
         (document.querySelector('.input-message').value = '');
     })
-    .catch(err => console.log(err));
+    .catch((err) => console.log(err));
 }
 
 // validacija forme
@@ -280,7 +280,6 @@ document.querySelector('.send-mail').addEventListener('click', function (e) {
     alert('Please enter a message.');
     return;
   }
-
   const params = {
     name: name,
     email: email,

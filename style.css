@@ -80,7 +80,6 @@ section {
   -webkit-appearance: none;
   z-index: 5;
 }
-
 .menutoggle .single-line,
 .menutoggle .single-line::before,
 .menutoggle .single-line::after {
