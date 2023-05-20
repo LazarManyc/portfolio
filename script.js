@@ -145,25 +145,70 @@ btn.addEventListener('click', (e) => {
 <figure class="single-project">
 <div class="flex-box-2">
   <div class="project-image-box">
-    <img src="img/portfolio/screenshot2.JPG" alt="" />
+    <img src="img/portfolio/screenshot2.JPG" alt="portfolio project" />
   </div>
 </div>
 <div class="flex-box-2">
   <figcaption class="single-card-figcaption">
-    <h3 class="heading_card_hovered heading-sec">Mapty</h3>
+    <h3 class="heading_card_hovered heading-sec">ActiviMap</h3>
     <p class="heading_card_hovered_description">
-      Mapty is a fitness app that allows you to easily track and log
-      your workouts. With Mapty, you can record the type, duration,
+    ActiviMap is a fitness app that allows you to easily track and log
+      your workouts. With ActiviMap, you can record the type, duration,
       and location of each exercise, and view your progress over
       time on a map. Whether you're a beginner or a fitness
-      enthusiast, Mapty is a great tool for staying motivated and
+      enthusiast, ActiviMap is a great tool for staying motivated and
       achieving your fitness goals.
     </p>
-    <a href="https://endearing-hotteok-bcd193.netlify.app/"
+    <a href="https://activimap.netlify.app/"
     target="_blank" class="visit-website">Visit Website &gt;</a>
   </figcaption>
 </div>
 </figure>
+<figure class="single-project">
+<div class="flex-box-2">
+  <div class="project-image-box">
+    <img src="img/portfolio/screenshot4.JPG" alt="portfolio project" />
+  </div>
+</div>
+<div class="flex-box-2">
+  <figcaption class="single-card-figcaption">
+    <h3 class="heading_card_hovered heading-sec">RecipeHub</h3>
+    <p class="heading_card_hovered_description">
+    RecipeHub is ultimate destination for over 1.000.000+
+    delicious recipes from around the world! Discover
+    inspiration for your meals, explore diverse cuisines,
+    and enjoy cooking like never before. From simple dishes
+    to gourmet creations, RecipeHub has everything you need.
+    Join us and embark on a culinary journey today!
+    </p>
+    <a href="https://demorecipehub.netlify.app/"
+    target="_blank" class="visit-website">Visit Website &gt;</a>
+  </figcaption>
+</div>
+</figure>
+<figure class="single-project">
+<div class="flex-box-2">
+  <div class="project-image-box">
+    <img src="img/portfolio/screenshot6.JPG" alt="portfolio project" />
+  </div>
+</div>
+<div class="flex-box-2">
+  <figcaption class="single-card-figcaption">
+    <h3 class="heading_card_hovered heading-sec">Tehnomedia</h3>
+    <p class="heading_card_hovered_description">
+  Tehnomedia is an online store for home appliances in
+                        Serbia. I have created this replica of their website to
+                        provide you with the same excellent service and
+                        affordable products. The website is user-friendly,
+                        allowing you to make quick and secure online purchases.
+                        Join thousands of satisfied customers.
+    </p>
+    <a href="https://tehnomedia.netlify.app/"
+    target="_blank" class="visit-website">Visit Website &gt;</a>
+  </figcaption>
+</div>
+</figure>
+
 `;
   document.querySelector('.load-more-projects').remove();
   document
