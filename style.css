@@ -823,7 +823,7 @@ section {
     justify-content: center;
   }
   .project-image-box img {
-    width: 90%;
+    width: 100%;
     box-shadow: 0 0px 10px rgba(33, 37, 41, 0.14);
     margin-top: 9.8rem;
   }

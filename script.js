@@ -145,7 +145,20 @@ btn.addEventListener('click', (e) => {
 <figure class="single-project">
 <div class="flex-box-2">
   <div class="project-image-box">
-    <img src="img/portfolio/screenshot2.JPG" alt="portfolio project" />
+  <picture>
+  <source
+    srcset="img/portfolio/screenshot2.webp"
+    type="image/webp"
+  />
+  <source
+    srcset="img/portfolio/screenshot2.jpg"
+    type="image/jpeg"
+  />
+  <img
+    src="img/portfolio/screenshot2.jpg"
+    alt="portfolio-project"
+  />
+</picture>
   </div>
 </div>
 <div class="flex-box-2">
@@ -167,7 +180,20 @@ btn.addEventListener('click', (e) => {
 <figure class="single-project">
 <div class="flex-box-2">
   <div class="project-image-box">
-    <img src="img/portfolio/screenshot4.JPG" alt="portfolio project" />
+  <picture>
+  <source
+    srcset="img/portfolio/screenshot4.webp"
+    type="image/webp"
+  />
+  <source
+    srcset="img/portfolio/screenshot4.jpg"
+    type="image/jpeg"
+  />
+  <img
+    src="img/portfolio/screenshot4.jpg"
+    alt="portfolio-project"
+  />
+</picture>
   </div>
 </div>
 <div class="flex-box-2">
@@ -189,7 +215,20 @@ btn.addEventListener('click', (e) => {
 <figure class="single-project">
 <div class="flex-box-2">
   <div class="project-image-box">
-    <img src="img/portfolio/screenshot6.JPG" alt="portfolio project" />
+  <picture>
+  <source
+    srcset="img/portfolio/screenshot6.webp"
+    type="image/webp"
+  />
+  <source
+    srcset="img/portfolio/screenshot6.jpg"
+    type="image/jpeg"
+  />
+  <img
+    src="img/portfolio/screenshot6.jpg"
+    alt="portfolio-project"
+  />
+</picture>
   </div>
 </div>
 <div class="flex-box-2">
